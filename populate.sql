@@ -68,7 +68,7 @@ insert into rotation_assigned values("DISP17SU08001200", "2017-03-19", 56789123)
 insert into rotation_assigned values("DISP17SU08001200", "2017-03-05", 67891234);
 insert into rotation_assigned values("DISP17SU08001200", "2017-03-26", 78912345);
 
-insert into coverage values("DISP17MD06001400", "2017-04-03", null, F);
+insert into coverage values("DISP17MD06001400", "2017-04-03", null, T);
 insert into coverage values("DISP17TU14002200", "2017-04-04", 12345678, T);
 insert into coverage values("OPSP17WE06001400", "2017-04-05", null, T);
 insert into coverage values("PASP17TH06001400", "2017-04-06", null, F);
