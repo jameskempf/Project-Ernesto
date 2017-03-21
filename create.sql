@@ -17,13 +17,13 @@ create table works(
   
 create table shift(
   sid varchar(16) not null primary key,
-  week_day char (10) not null,
+  day char (10) not null,
   start_time integer(4) not null,
   end_time integer(4) not null,
   term, char(15) not null,
   is_rotation boolean not null,
   gid integer references worker,
-  check(week_day in ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')),
+  check(day in ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')),
   check(term in ('Spring', 'Fall', 'Summer', 'Winter Break', 'Spring Break', 'Thanksgiving')));
   
 create table shift_type(
