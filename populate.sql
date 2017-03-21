@@ -62,11 +62,11 @@ insert into shift_type values("OPSP17WE06001400", "Opener");
 insert into shift_type values("PASP17TH06001400", "Parker Attendant");
 insert into shift_type values("DISP17SU08001200", "Dispatcher");
 
-insert into rotation_assigned values();
-insert into rotation_assigned values();
-insert into rotation_assigned values();
-insert into rotation_assigned values();
-insert into rotation_assigned values();
+insert into rotation_assigned values("DISP17SU08001200", "2017-04-07", 34567891);
+insert into rotation_assigned values("DISP17SU08001200", "2017-04-02", 45678912);
+insert into rotation_assigned values("DISP17SU08001200", "2017-03-19", 56789123);
+insert into rotation_assigned values("DISP17SU08001200", "2017-03-05", 67891234);
+insert into rotation_assigned values("DISP17SU08001200", "2017-03-26", 78912345);
 
 insert into coverage values("DISP17MD06001400", "2017-04-03", null, false);
 insert into coverage values("DISP17TU14002200", "2017-04-04", 12345678, true);
@@ -74,14 +74,14 @@ insert into coverage values("OPSP17WE06001400", "2017-04-05", null, true);
 insert into coverage values("PASP17TH06001400", "2017-04-06", null, false);
 insert into coverage values("DISP17SU08001200", "2017-04-07", null, false);
 
-insert into parker_shift values();
-insert into parker_shift values();
-insert into parker_shift values();
-insert into parker_shift values();
-insert into parker_shift values();
+insert into parker_shift values("2017-04-03", "0800", "1200", 03);
+insert into parker_shift values("2017-04-10", "1200", "1600", 04);
+insert into parker_shift values("2017-04-17", "1600", "2000", 10);
+insert into parker_shift values("2017-04-24", "0800", "1200", 05);
+insert into parker_shift values("2017-03-27", "1200", "1400", 12);
 
-insert into parker_assigned values();
-insert into parker_assigned values();
-insert into parker_assigned values();
-insert into parker_assigned values();
-insert into parker_assigned values();
+insert into parker_assigned values("2017-04-03", "0800", "1200", 22446688);
+insert into parker_assigned values("2017-04-10", "1200", "1600", 44444444);
+insert into parker_assigned values("2017-04-17", "1600", "2000", 22446688);
+insert into parker_assigned values("2017-04-24", "0800", "1200", 89123456);
+insert into parker_assigned values("2017-03-27", "1200", "1400", 91234567);
