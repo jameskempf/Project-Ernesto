@@ -1,1 +1,11 @@
 List of functional dependancies
+
+gid -->  last, first
+p_date, start_time, end_time --> num_req
+p_date, start_time, end_time -->> gid
+sid, c_date --> mandatory, gid
+gid -->> pos_name
+sid -->> pos_name
+sid --> day, start_time, end_time, term, is_rotation
+pos_name --> pay_rate
+sid, a_date --> gid
