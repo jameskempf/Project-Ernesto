@@ -43,18 +43,24 @@ insert into works values("Senior Dispatcher", 11223344);
 insert into works values("Head Dispatcher", 55667788);
 insert into works values("Opener", 11335577);
 insert into works values("Parking Attendant", 22446688);
+insert into works values("Closer", 11111111);
+insert into works values("Opener", 22222222);
+insert into works values("Closer", 33333333);
+insert into works values("Parking Attendant", 44444444);
+insert into works values("Parking Enforcement Assistant", 66666666);
+insert into works values("Senior Dispatcher", 23456789);
 
-insert into shift values("Mon06001400Spr", "Monday", "0600", "1400", "Spring", true, 12345678);
-insert into shift values("Tue06001400Fal", "Tuesday", "1400", "2200", "Fall", true, 55667788);
-insert into shift values("Wed06001400Spr", "Wednesday", "0600", "1400", "Spring", true, 11335577);
-insert into shift values("Thr06001400Spr", "Thursday", "0600", "1400", "Spring", true, 22446688);
-insert into shift values("Sun06001400Spr", "Sunday", "0600", "1400", "Spring", false, 11223344);
+insert into shift values("DISP17MD06001400", "Monday", "0600", "1400", "Spring", true, 12345678);
+insert into shift values("DISP17TU14002200", "Tuesday", "1400", "2200", "Spring", true, 55667788);
+insert into shift values("OPSP17WE06001400", "Wednesday", "0600", "1400", "Spring", true, 11335577);
+insert into shift values("PASP17TH06001400", "Thursday", "0600", "1400", "Spring", true, 22446688);
+insert into shift values("DISP17SU08001200", "Sunday", "0800", "1200", "Spring", false, 11223344);
 
-insert into shift_type values("Mon06001400Spr", "Dispatcher");
-insert into shift_type values("Tue06001400Fal", "Dispatcher");
-insert into shift_type values("Wed06001400Spr", "Opener");
-insert into shift_type values("Thr06001400Spr", "Parker_Attendant");
-insert into shift_type values("Sun06001400Spr", "Dispatcher");
+insert into shift_type values("DISP17MD06001400", "Dispatcher");
+insert into shift_type values("DISP17TU14002200", "Dispatcher");
+insert into shift_type values("OPSP17WE06001400", "Opener");
+insert into shift_type values("PASP17TH06001400", "Parker Attendant");
+insert into shift_type values("DISP17SU08001200", "Dispatcher");
 
 insert into rotation_assigned values();
 insert into rotation_assigned values();
@@ -62,11 +68,11 @@ insert into rotation_assigned values();
 insert into rotation_assigned values();
 insert into rotation_assigned values();
 
-insert into coverage values("Mon06001400Spr", "2017-04-03", null, false);
-insert into coverage values("Tue06001400Fal", "2017-04-04", 12345678, true);
-insert into coverage values("Wed06001400Spr", "2017-04-05", null, true);
-insert into coverage values("Thr06001400Spr", "2017-04-06", null, false);
-insert into coverage values("Sun06001400Spr", "2017-04-07", null, false);
+insert into coverage values("DISP17MD06001400", "2017-04-03", null, false);
+insert into coverage values("DISP17TU14002200", "2017-04-04", 12345678, true);
+insert into coverage values("OPSP17WE06001400", "2017-04-05", null, true);
+insert into coverage values("PASP17TH06001400", "2017-04-06", null, false);
+insert into coverage values("DISP17SU08001200", "2017-04-07", null, false);
 
 insert into parker_shift values();
 insert into parker_shift values();
