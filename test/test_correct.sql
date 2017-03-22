@@ -5,7 +5,7 @@ insert into worker values('00000000', 'test', 'person');
 -- correct example of WORKS
 insert into works values('test', '00000000');
 -- correct example of SHIFT
-insert into shift values('DISP17MD00000100', 'Monday', '0000', '0100', 'Spring', 'F', '00000000');
+insert into shift values('DISP17MD00000100', 'Monday', '0000', '0100', 'Spring', 'T', '00000000');
 insert into shift values('DISP17TU00000100', 'Tuesday', '0000', '0100', 'Spring', 'F', '00000000');
 -- correct example of SHIFT_TYPE
 insert into shift_type values('DISP17MD00000100', 'Dispatcher');

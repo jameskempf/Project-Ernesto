@@ -8,5 +8,5 @@ insert into coverage values('DISP17TU00000100', '2017-04-03', '99999999', 'F');
 insert into coverage values('DISP17TU00000100', '2017-04-03', '00000000', 'N');
 -- testing the deleting cascade in Coverage table (sid)
 select * from coverage;
-delete * from shift where sid = 'DISP17SU08001200';
+delete from shift where sid = 'DISP17SU08001200';
 select * from coverage;
