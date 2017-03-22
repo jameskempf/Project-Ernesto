@@ -3,7 +3,7 @@
 --Queries to fill in Position table
 insert into position values('Dispatcher', '12.00');
 insert into position values('Senior Dispatcher', '13.00');
-insert into position values('PEA', '13.00' );
+insert into position values('PEA', '13.00');
 insert into position values('Parker', '11.50');
 insert into position values('Opener', '11.50');
 insert into position values('Closer', '12.00');
