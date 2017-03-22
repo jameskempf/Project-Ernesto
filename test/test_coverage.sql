@@ -6,3 +6,7 @@ insert into coverage values('AAAAAAAAAAAAAAAA', '2017-04-03', '00000000', 'F');
 insert into coverage values('DISP17TU00000100', '2017-04-03', '99999999', 'F');
 -- testing with improper boolean value in Coverage table
 insert into coverage values('DISP17TU00000100', '2017-04-03', '00000000', 'N');
+-- testing the deleting cascade in Coverage table (sid)
+select * from coverage;
+delete * from shift where sid = 'AAAAAAAAAAAAAAAA';
+select * from coverage;
