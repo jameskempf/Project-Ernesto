@@ -1,6 +1,6 @@
--- duplicate primary key
+--  testing with duplicate primary key in Works table
 insert into works values('test', '00000000');
--- first foreign key does not exist
+--  testing with first foreign key does not exist in Works table
 insert into works values('test1', '00000000');
--- second foreign key does not exist
+--  testing with second foreign key does not exist in Works table
 insert into works values('test', '00000009');
