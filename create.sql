@@ -19,7 +19,7 @@ create table works(
     primary key(pos_name, gid));
 
 --Table keeps a record of all shifts to all positions.  The same shift may appear
---      accross multiple terms, years, and days of the week.  These shifts repeat
+--      across multiple terms, years, and days of the week.  These shifts repeat
 --      each week in a term and are not date bound (unlike coverage and rotation)
 --      a shift may be assigned as rotation and the gid left null to assigned
 --      workers by date instead of on a weekly basis.
